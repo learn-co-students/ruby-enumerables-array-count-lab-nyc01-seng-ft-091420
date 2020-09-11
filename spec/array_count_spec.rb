@@ -5,8 +5,8 @@ array_2 = ["", 4, "", "goodbye",""]
 
 describe 'count_strings' do
   it 'takes in an array of varying data types and returns the total number of strings' do
-    expect(count_strings(array_1)).to eq(3)
-    expect(count_strings(array_2)).to eq(4)
+    expect(count_strings(array_1)).to eq(1)
+    expect(count_strings(array_2)).to eq(3)
   end
 end
 
